@@ -139,9 +139,7 @@ public class ProjectsApp {
 		projects.forEach(project -> System.out.println("  " + project.getProjectId() + ": " + project.getProjectName()));
 	}
 	
-	/*
-	 * Print the menu selections, one per line.
-	 */
+
 	private void printOperations() {
 		System.out.println("\nThese are the available selections. Press the Enter key to quit:");
 		

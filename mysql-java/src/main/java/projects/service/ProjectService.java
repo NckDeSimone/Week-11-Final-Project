@@ -1,14 +1,13 @@
+
 package projects.service;
 
 import java.util.List;
 import java.util.NoSuchElementException;
-
 import projects.dao.ProjectDao;
 import projects.entity.Project;
 import projects.exception.DbException;
 
 public class ProjectService {
-
 	private ProjectDao projectDao = new ProjectDao();
 
 	public Project addProject(Project project) {
